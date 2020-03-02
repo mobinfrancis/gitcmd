@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CoachingAppTool_Regression Suite">
+	<test name="Dashboard">
+		<classes>
+			<class name="scripts.Dashboard" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="ExtractProdQualityReport">
+		<classes>
+			<class name="scripts.ExtractProdQualityReport" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="ExtractReports">
+		<classes>
+			<class name="scripts.ExtractReports" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="MyCoachingSessions">
+		<classes>
+			<class name="scripts.MyCoachingSessions" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="ScheduleCoachingSessions">
+		<classes>
+			<class name="scripts.ScheduleCoachingSessions" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="ViewMyStat">
+		<classes>
+			<class name="scripts.ViewMyStat" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="AccessSettings">
+		<classes>
+			<class name="scripts_Settings.AccessSettings" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="AppUsage">
+		<classes>
+			<class name="scripts_Settings.AppUsage" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CoachingTarget">
+		<classes>
+			<class name="scripts_Settings.CoachingTarget" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="PamSetting">
+		<classes>
+			<class name="scripts_Settings.PamSetting" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="RosterManagement">
+		<classes>
+			<class name="scripts_Settings.RosterManagement" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="TowerSettings">
+		<classes>
+			<class name="scripts_Settings.TowerSettings" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
